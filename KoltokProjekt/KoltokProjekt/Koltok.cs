@@ -7,19 +7,13 @@ namespace KoltokProjekt
 {
     internal class Koltok
     {
-       
-        private string fajlKotoSzavak;
-        
         private List<Kolto> koltok;
 
-       
-
-        public Koltok(List<Kolto> koltok, string fajlKotoSzavak)
+        public Koltok(List<Kolto> koltok)
         {
             this.koltok = koltok;
-            this.fajlKotoSzavak = fajlKotoSzavak;
             Beolvas();
-            Console.WriteLine(  "Beolvasás kész");
+            //Console.WriteLine("Beolvasás kész");
         }
 
         private void Beolvas()
@@ -31,10 +25,8 @@ namespace KoltokProjekt
                 string[] mindenSzo = content.ToLower().Split(hatarolo , StringSplitOptions.RemoveEmptyEntries);
                 kolto.KoltoSzavaiKiszed(mindenSzo);
 
+
             }
         }
-
-        
-
     }
 }

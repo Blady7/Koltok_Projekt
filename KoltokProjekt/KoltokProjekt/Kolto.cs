@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace KoltokProjekt
 {
@@ -17,17 +18,34 @@ namespace KoltokProjekt
 
         internal void KoltoSzavaiKiszed(string[] mindenSzo)
         {
+            var gyakorisag = new Dictionary<string, int>();
+
             foreach (var szo in mindenSzo)
             {
-                if (!koltoSzavai.ContainsKey(szo))
+                if (!Kivetelek.KivetelLista().Contains(szo) && szo.Length > 1)
                 {
-                    koltoSzavai.Add(szo, 1);
+                    if (!gyakorisag.ContainsKey(szo))
+                    {
+                        gyakorisag.Add(szo, 1);
+                    }
+                    else
+                    {
+                        gyakorisag[szo]++;
+                    }
+
                 }
-                else
-                {
-                    koltoSzavai[szo]++;
-                }
+                
             }
+            var top10Szavak = gyakorisag.OrderByDescending(pair => pair.Value).Take(25);
+
+            Console.WriteLine("\n {0} legtöbbet használt szavai:", nevKolto);
+
+            foreach (var pair in top10Szavak)
+            {
+                Console.WriteLine("{0}: {1} előfordulás", pair.Key, pair.Value);
+            }
+
+
         }
     }
 }

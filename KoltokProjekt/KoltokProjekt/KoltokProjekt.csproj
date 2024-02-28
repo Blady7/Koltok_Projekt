@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kivetelek.cs" />
     <Compile Include="Kolto.cs" />
     <Compile Include="KoltoSzavai.cs" />
     <Compile Include="Koltok.cs" />
