@@ -1,1 +1,15 @@
-Ez a C# nyelven írt egy privát metódus, amelynek a neve "Beolvas". A kód egy ciklust (foreach) használ, hogy végigmenjen a koltok nevű objektumok listáján. Minden egyes "kolto" objektumon belül a kód megnyitja és elolvassa a megadott fájlt (kolto.fajlKolto) a File.ReadAllText() függvénnyel. Ezután a fájl tartalmát átalakítja kisbetűsre (ToLower()) és szavakra bontja, eltávolítva a megadott határoló karaktereket (pl. szóköz, újsor, tabulátor, stb.). Ezeket a határoló karaktereket a char[] hatarolo tömbben tárolja.
+#1
+- Minden költőnek létrehoztam egy „nevKolto” és egy „fajlKolto” változót. Majd ezeket beadtam egy „Kolto” nevezetű osztályba.
+
+#2
+- Egy ciklust használva végig megy a „koltok” nevű objektumon. A „char hatarolo” -ban a határoló karaktereket egy tömbben letárolom, majd a „mindenSzo” -ban le veszem az összes betűt kisbetűre, és kitörlöm az üres részeket.
+
+#3
+- Először létrehoztam egy üres „gyakorisag” nevű szótárat, amelyben tárolni fogja a szavak gyakoriságát (azaz, hogy hány alkalommal fordulnak elő).
+  
+- Ezután egy ciklust használva a „mindenSzo” tömbön, hogy végigmegy az összes szón. Minden szónál ellenőrzi, hogy az nem szerepel-e a „Kivetelek.KivetelLista()” metódus által visszaadott kivételek listájában, és hogy a szó hossza nagyobb-e mint 1 karakter. Ha mindkét feltétel teljesül, akkor folytatja a feldolgozást.
+  
+- Ezután létrehoz egy top25Szavak változót, amely a leggyakrabban előforduló 25 szót tartalmazza, rendezve a gyakoriságuk alapján csökkenő sorrendben.
+
+#4
+- Egy statikus osztályban, beolvastam a „kotoszavak.txt” -t. Majd vissza adtam egy „KivetelLista” listában.
