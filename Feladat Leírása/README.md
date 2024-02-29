@@ -2,7 +2,8 @@ Költők szókincse
 Hasonlítsa össze három magyar költő: Arany János, Petőfi Sándor, Ady Endre szóhasználatát.
 
 Ezsközök
-pdf konverter
+pdf Konverter
+
 
 A feladat részletezése
 1. Adatgyűjtés
