@@ -1,0 +1,14 @@
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\bin\Debug\KoltokProjekt.exe.config
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\bin\Debug\KoltokProjekt.exe
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\bin\Debug\KoltokProjekt.pdb
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.csproj.AssemblyReference.cache
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.csproj.CoreCompileInputs.cache
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.exe
+C:\tanulok\2023-24\12d\Oláh Péter\projekt feladat_költők\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.pdb
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\bin\Debug\KoltokProjekt.exe.config
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\bin\Debug\KoltokProjekt.exe
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\bin\Debug\KoltokProjekt.pdb
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.csproj.AssemblyReference.cache
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.csproj.CoreCompileInputs.cache
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.exe
+C:\Users\Petya\Desktop\Koltok_Projekt-master\KoltokProjekt\KoltokProjekt\obj\Debug\KoltokProjekt.pdb
